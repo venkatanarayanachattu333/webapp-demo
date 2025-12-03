@@ -12,11 +12,12 @@
 		<finalName>webapp-demo</finalName>
 	</build>
 
-	<distributionManagement>
-		<repository>
-			<id>nexus-releases</id>
-			<url>http://<http://13.53.206.132:8081/repository/maven-releases/>:8081/repository/maven-releases/</url>
-		</repository>
-	</distributionManagement>
+	
 
 </project>
+<distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://16.171.11.172:8081/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
